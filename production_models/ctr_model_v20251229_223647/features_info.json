@@ -1,0 +1,72 @@
+{
+    "selected_features": [
+        "ml_feature_10",
+        "ml_feature_6",
+        "ml_feature_1",
+        "C17",
+        "ml_feature_8",
+        "ml_feature_5",
+        "C18",
+        "device_conn_type",
+        "device_type",
+        "C16",
+        "C14",
+        "C21",
+        "ml_feature_9",
+        "banner_pos"
+    ],
+    "numeric_features": [
+        "hour",
+        "C1",
+        "banner_pos",
+        "device_type",
+        "device_conn_type",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20",
+        "C21",
+        "ml_feature_1",
+        "ml_feature_3",
+        "ml_feature_4",
+        "ml_feature_5",
+        "ml_feature_6",
+        "ml_feature_8",
+        "ml_feature_9",
+        "ml_feature_10"
+    ],
+    "categorical_features": [
+        "site_id",
+        "site_domain",
+        "site_category",
+        "app_id",
+        "app_domain",
+        "app_category",
+        "device_id",
+        "device_ip",
+        "device_model",
+        "ml_feature_2",
+        "ml_feature_7"
+    ],
+    "target_column": "click",
+    "model_type": "LogisticRegression",
+    "calibration_method": "Isotonic",
+    "random_seed": 42,
+    "creation_date": "20251229_223647",
+    "metrics_before_calibration": {
+        "log_loss": 0.5316410750521965,
+        "pr_auc": 0.3911127840977624,
+        "brier_score": 0.17566553180113603,
+        "precision": 0.3527454242928453,
+        "recall": 0.4927367809413132,
+        "f1_score": 0.41115151515151516
+    },
+    "metrics_after_calibration": {
+        "brier_score": 0.1262612215649381,
+        "ece": 0.0084541561019414,
+        "mce": 0.125
+    }
+}
