@@ -1,19 +1,19 @@
 {
     "selected_features": [
-        "ml_feature_10",
-        "ml_feature_6",
-        "ml_feature_1",
-        "C17",
-        "ml_feature_8",
-        "ml_feature_5",
-        "C18",
         "device_conn_type",
         "device_type",
-        "C16",
         "C14",
-        "C21",
+        "C16",
+        "ml_feature_8",
+        "C17",
+        "ml_feature_5",
+        "banner_pos",
+        "ml_feature_1",
+        "C18",
         "ml_feature_9",
-        "banner_pos"
+        "C21",
+        "ml_feature_10",
+        "ml_feature_6"
     ],
     "numeric_features": [
         "hour",
@@ -55,7 +55,7 @@
     "model_type": "LogisticRegression",
     "calibration_method": "Isotonic",
     "random_seed": 42,
-    "creation_date": "20251229_223647",
+    "creation_date": "20251230_223442",
     "metrics_before_calibration": {
         "log_loss": 0.5316410750521965,
         "pr_auc": 0.3911127840977624,
